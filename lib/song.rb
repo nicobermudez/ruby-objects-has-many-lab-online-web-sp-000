@@ -4,6 +4,6 @@ class Song
 
   def initialize(title)
     @title=title
-    title << @@all
+    @@all << title 
   end
 end
