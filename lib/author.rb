@@ -1,4 +1,4 @@
-class Author 
+class Author
   attr_accessor :name
 
   def initialize(name)
@@ -6,8 +6,8 @@ class Author
     @posts = []
   end
 
-  def posts 
-    @posts 
+  def posts
+    @posts
   end
 
   def add_post(post)
@@ -22,6 +22,6 @@ class Author
   end
 
   def self.song_count
-    
+
   end
 end
